@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.h1{
+    color: #1C1C1C;
+    font-size: 3em;
+    line-height: 0.9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.img{
+    margin-top: -2.2em;
+}
+
+.carrusel {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+  
+  .text {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .logo img {
+    height: 40px; /* Ajusta la altura del logo según sea necesario */
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    color: #1C1C1C;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+
+  .menu{
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  
